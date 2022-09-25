@@ -1,0 +1,13 @@
+.client > p{
+    color: gray;
+    font-size: 40px;
+    margin-top: 400px;
+    margin-left: 100px;
+}
+.client > h1{
+     font-size: 70px;
+     margin-left: 100px;
+}
+.imgs{
+    margin-left: 100px;
+}

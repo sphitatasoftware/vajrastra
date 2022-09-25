@@ -1,0 +1,19 @@
+.Services > p{
+    color: gray;
+    font-size: 30px;
+    margin-left: 100px;
+
+}
+.Services > h1{
+    color: blue;
+    font-size: 70px;
+    margin-left: 100px;
+}
+.Services > h4{
+    color: gray;
+    font-size: 30px;
+    margin-left: 100px;
+}
+.cards{
+    margin-left: 40px;
+}
