@@ -1,13 +1,14 @@
 .client > p{
     color: gray;
-    font-size: 40px;
-    margin-top: 400px;
-    margin-left: 100px;
+    margin-top: 10%;
+    text-align: center;
+
 }
 .client > h1{
-     font-size: 70px;
-     margin-left: 100px;
+     text-align: center;
+
 }
-.imgs{
-    margin-left: 100px;
+
+.client{
+    margin-bottom: 10px;
 }

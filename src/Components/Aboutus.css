@@ -1,26 +1,16 @@
 .Aboutus > p{
     color: gray;
-    font-size: 30px;
-    margin-left: 100px;
-
-
-}
-.Aboutus > h1{
-    color: blue;
-    margin-left: 100px;
-
-    font-size: 70px;
+    text-align: center;
 }
 .Aboutus > h4{
-    color:gray;
-    font-size:25px;
-    margin-left: 100px;
+    color: gray;
+    text-align: center;
+    margin-bottom: 30px;
 }
-.cards{
-    margin-left: 100px;
-    padding: 20px;
-
+.Aboutus > h1{
+    color: rgb(62, 57, 114);
+    text-align: center;
 }
-.cards > Card > Card.Body > Card.Title>{
-    color: gold;
+.Aboutus {
+    margin-top: 30%;
 }

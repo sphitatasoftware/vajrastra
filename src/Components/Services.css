@@ -1,19 +1,20 @@
 .Services > p{
     color: gray;
-    font-size: 30px;
-    margin-left: 100px;
+    text-align: center;
+
 
 }
 .Services > h1{
     color: blue;
-    font-size: 70px;
-    margin-left: 100px;
+    text-align: center;
+
 }
 .Services > h4{
     color: gray;
-    font-size: 30px;
-    margin-left: 100px;
+    text-align: center;
+
 }
 .cards{
-    margin-left: 40px;
+    text-align: center;
+
 }

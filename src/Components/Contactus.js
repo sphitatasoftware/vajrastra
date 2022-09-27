@@ -14,9 +14,9 @@ export default Contactus => {
         <br/>
         <h4>WHERE TO FIND US</h4>
         <h5>29/500, 1st Floor, Oasis Plaza,<br/>
-Murikkavu, West Yakkara,<br/>
-Palakkad, Kerala,<br/>
-India - 678 001</h5>
+Madhurwada,<br/>
+Visakhapatnam, Andhra Pradesh,<br/>
+India - 531 023</h5>
       
     
 </div>

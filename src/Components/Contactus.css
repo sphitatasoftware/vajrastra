@@ -1,12 +1,10 @@
 .Contactus > p{
     color:gray;
-    font-size: 40px;
-    margin-left: 100px;
+    margin-left: 10%;
 }
 .Contactus > h1{
     color:blue;
-    font-size: 70px;
-     margin-left:100px;
+     margin-left:10%;
     
 }
 .Contactus{
@@ -14,24 +12,23 @@
 }
 .Contactus > h3{
     color: white;
-    font-size: 30px;
-    margin-left: 100px;
+    margin-left: 10%;
 
 
 
 }
 .Contactus> h2{
     color: gray;
-    font-size: 50px;
-    margin-left: 100px;
+    margin-left: 10px;
 }
 .Contactus > h5{
     color: white;
-    font-size: 30px;
-    margin-left: 100px;
+    margin-left: 10%;
 }
 .Contactus > h4{
     color: gray;
-    font-size: 20px;
-    margin-left: 100px;
+    margin-left: 10%;
+}
+.Contactus{
+    text-align: center;
 }

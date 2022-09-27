@@ -1,7 +1,7 @@
 import React from "react";
 import "./Services.css";
 import Card from "react-bootstrap/Card";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 
 export default Services => {
   return (
@@ -21,10 +21,10 @@ export default Services => {
         </h4>
         <br/>
         <br/>
-        <div className="cards">
+        <Container className="justify-content-md-center ">
           <Row>
-            <Col>
-            <Card style={{ width: '25rem',height:"20vh",borderBlockColor:"blue",borderBlockWidth:"5px",color:"gray" }}>
+            <Col xs={12} lg={4}>
+            <Card style={{ maxWidth:"400px",minHeight:"470px", borderBlockColor:"blue",borderBlockWidth:"5px",color:"gray" ,marginBottom:"20px"}}>
       <Card.Img variant="top" src="/images/s1.png" />
       <Card.Body>
         <Card.Title>Native Mobile Apps</Card.Title>
@@ -36,8 +36,8 @@ export default Services => {
       </Card.Body>
     </Card>
             </Col>
-            <Col>
-            <Card style={{ width: '25rem',height:"20vh",borderBlockColor:"blue",borderBlockWidth:"5px",color:"gray" }}>
+            <Col xs={12} lg={4}>
+            <Card style={{ maxWidth:"400px",minHeight:"470px", borderBlockColor:"blue",borderBlockWidth:"5px",color:"gray" ,marginBottom:"20px"}}>
       <Card.Img variant="top" src="/images/s2.png" />
       <Card.Body>
         <Card.Title>Responsive (PWA) sites</Card.Title>
@@ -48,8 +48,8 @@ export default Services => {
       </Card.Body>
     </Card>
             </Col>
-            <Col>
-            <Card style={{ width: '25rem',height:"20vh",borderBlockColor:"blue",borderBlockWidth:"5px",color:"gray" }}>
+            <Col xs={12} lg={4}>
+            <Card style={{ maxWidth:"400px",minHeight:"470px", borderBlockColor:"blue",borderBlockWidth:"5px",color:"gray" ,marginBottom:"20px"}}>
       <Card.Img variant="top" src="/images/s3.png" />
       <Card.Body>
         <Card.Title>E-Commerce</Card.Title>
@@ -62,7 +62,7 @@ export default Services => {
             </Col>
            
           </Row>
-        </div>
+        </Container>
       </div>
     </>
   );

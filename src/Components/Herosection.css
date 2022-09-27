@@ -6,18 +6,16 @@
 
 }
 .Herosection > img{
-    width: 25%;
+    width: 45%;
     display: flex;
-    margin-left: 150px;
-    margin-top: -700px;
+    margin-left: 2%;
+    margin-top: -58%;
 }
 .Herosection > h1{
     color: white;
-    font-size: 80px;
-    margin-left: 150px;
+    margin-left: 10%;
 }
 .Herosection > p{
-    font-size: 30px;
     color:gold;
-    margin-left: 400px;
+    margin-left: 20%;
 }

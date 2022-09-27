@@ -7,20 +7,7 @@ import Clients from "./Clients";
 export default Home => {
     return (
       <>
-
         <Herosection/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        
-        <br/>
-        <br/>
-        <br/><br/>
-        <br/>
-        <br/><br/>
-        <br/>
-        <br/>
         <Aboutus/>
         <Services />
         <Clients />

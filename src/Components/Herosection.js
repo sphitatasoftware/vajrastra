@@ -11,10 +11,7 @@ export default Herosection => {
       Vajrasthra Technologies.</h1>
       <p> -------  We create software applications<br/>
 that will take your business to the next level.</p>
-      
       </div>
-
-
 </>
 
     );

@@ -5,7 +5,7 @@ import './Slidebar.css';
  //import Home from "./Components/Home"
 export default props => {
   return (
-    <Menu>
+    <Menu right='true' >
       <a className="menu-item" href="/">
         Home
       </a>
