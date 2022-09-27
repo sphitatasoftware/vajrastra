@@ -1,3 +1,6 @@
+
+
+
 /* Position and sizing of burger button */
 .bm-burger-button {
     position: fixed;
@@ -41,14 +44,16 @@
   
   /* General sidebar styles */
   .bm-menu {
-    background:rgb(61, 111, 187);
+    background:rgb(16, 5, 139);
     padding: 2.5em 1.5em 0;
-    font-size: 35px;
+    font-size: 28px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
   }
   
   /* Morph shape necessary with bubble or elastic */
   .bm-morph-shape {
-    fill: rgb(61, 111, 187);
+    fill: rgb(16, 5, 139);
   }
   
   /* Wrapper for item list */
@@ -64,10 +69,13 @@
   text-align: left;
   text-decoration: none;
   transition: color 0.2s;
+  transition: transform .2s;
+  
 }
 
 .bm-item:hover {
   color: #ffffff;
+  transform: scale(1.2);
 }
   /* Styling of overlay */
   .bm-overlay {

@@ -10,12 +10,31 @@
     display: flex;
     margin-left: 2%;
     margin-top: -58%;
+    animation: fadeIn 5s;
 }
 .Herosection > h1{
     color: white;
     margin-left: 10%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transform: scale(0.94);
+    transform: translateY(-600px);
+  animation: 3s slideIn ease-in-out forwards 1s;
+
+   
 }
+@keyframes slideIn {
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+    }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 .Herosection > p{
     color:gold;
     margin-left: 20%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

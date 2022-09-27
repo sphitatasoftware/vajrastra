@@ -1,11 +1,16 @@
 .client > p{
-    color: gray;
+    color: gold;
     margin-top: 10%;
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 200%;
+    font-weight:bolder;
 
 }
 .client > h1{
      text-align: center;
+     color:  rgb(16, 5, 139);
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 

@@ -5,16 +5,29 @@
 
 }
 .Services > h1{
-    color: blue;
+    color:  rgb(16, 5, 139);
     text-align: center;
 
 }
 .Services > h4{
     color: gray;
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 .cards{
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
+}
+.Services > h1{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Services > p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gold;
+    text-align: center;
+    font-size: 200%;
+    font-weight:bolder;
 }

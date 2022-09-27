@@ -1,10 +1,16 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 .Contactus > p{
-    color:gray;
-    margin-left: 10%;
+    color:gold;
+    font-size: 200%;
+    font-weight: bolder;
+    
+    text-align: center;
 }
 .Contactus > h1{
-    color:blue;
-     margin-left:10%;
+    color:white;
+     text-align: center;
     
 }
 .Contactus{
@@ -12,22 +18,23 @@
 }
 .Contactus > h3{
     color: white;
-    margin-left: 10%;
+    text-align: center;
 
 
 
 }
 .Contactus> h2{
-    color: gray;
-    margin-left: 10px;
+    color:  gold;
+    text-align: center;
 }
 .Contactus > h5{
     color: white;
-    margin-left: 10%;
+    text-align: center;
+
 }
 .Contactus > h4{
-    color: gray;
-    margin-left: 10%;
+    color:  gold;
+    text-align: center;
 }
 .Contactus{
     text-align: center;
