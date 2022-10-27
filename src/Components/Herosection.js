@@ -6,7 +6,7 @@ export default Herosection => {
       <>
       <div className="Herosection">
       <video src='/videos/video1.mp4' autoPlay loop muted />
-      <img src="/images/logo.png"></img>
+      <img src="/images/logo1.png"></img>
       <h1> Hello folks, we are<br/>
       Vajrasthra Technologies.</h1>
       <p> -------  We create software applications<br/>

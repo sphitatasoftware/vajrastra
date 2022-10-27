@@ -7,9 +7,10 @@ export default Aboutus => {
     return (
         
         <div className="Aboutus" id="Aboutus" >
+          <br/> <br/> <br/>
           <p>WHO WE ARE</p>
           <h1>We are a group of software developers rapidly delivering enhanced value to our customers.</h1>
-          <h4>We approach every one of our client engagements with a strategic plan and embark on rapidly delivering <br/>targeted business results by building effective, visible and practical solutions.</h4>
+        <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h4>
           <Container className="justify-content-md-center ">
             <Row >
               <Col xs={12} lg={6}>
@@ -18,7 +19,7 @@ export default Aboutus => {
                   <Card.Title>1)Define</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">----------------</Card.Subtitle>
                   <Card.Text>
-                  Requirements are gathered by communicating with the client and end-users. An SRS (Software Requirement Specification) document is created with the user requirements expressed in natural language and technical requirements expressed in structured language used by the software development team.
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -29,7 +30,7 @@ export default Aboutus => {
                   <Card.Title>2)Desgin</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">-----------------</Card.Subtitle>
                   <Card.Text>
-                  A design document covering the architecture and high level design with sub-systems and module interactions is prepared. Detailed design with pseudo code is provided where necessary. Other aspects like security, concurrency, scaling, analytics and reporting are also detailed.
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -42,7 +43,7 @@ export default Aboutus => {
                   <Card.Title>3)Build</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">-------------</Card.Subtitle>
                   <Card.Text>
-                  Choosing the right language and framework, the application is built using minimal coding and high standards. Modules are built matching the deployment strategy defined. Easy configuration and extension is provided. Continuious integration with automated testing keeps quality in control.
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -53,7 +54,7 @@ export default Aboutus => {
                   <Card.Title>4)Launch & After</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">----------------------</Card.Subtitle>
                   <Card.Text>
-                  Cloud deployment or otherwise, all the necessary alarms, monitoring and log aggregations are put in place before the launch. Auto scaling is set up. For updates, blue-green deployment is used to reduce risk and downtime.
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque.
                   </Card.Text>
                 </Card.Body>
               </Card>
