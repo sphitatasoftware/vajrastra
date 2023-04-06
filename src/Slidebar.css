@@ -44,7 +44,7 @@
   
   /* General sidebar styles */
   .bm-menu {
-    background:rgb(16, 5, 139);
+    background:black;
     padding: 2.5em 1.5em 0;
     font-size: 28px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -53,7 +53,7 @@
   
   /* Morph shape necessary with bubble or elastic */
   .bm-morph-shape {
-    fill: rgb(16, 5, 139);
+    fill:black;
   }
   
   /* Wrapper for item list */

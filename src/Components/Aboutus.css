@@ -12,10 +12,11 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .Aboutus > h1{
-    color: rgb(16, 5, 139);
+    color:white;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .Aboutus {
     margin-top: 30%;
+    background-color: black;
 }

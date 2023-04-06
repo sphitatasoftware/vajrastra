@@ -1,0 +1,21 @@
+.Footer_main{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    text-align: center;
+}
+.Footer_content{
+    flex: 100%;
+    padding: 10px;
+}
+@media (max-width: 800px) {
+    .Footer_main {
+      flex-direction: column;
+    }
+    
+}
+h1 {
+    color: gold;
+}

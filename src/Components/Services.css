@@ -4,8 +4,11 @@
 
 
 }
+.Services{
+    background-color:black;
+}
 .Services > h1{
-    color:  rgb(16, 5, 139);
+    color:  white;
     text-align: center;
 
 }
@@ -31,3 +34,15 @@
     font-size: 200%;
     font-weight:bolder;
 }
+.f {
+    animation: fadeIn ease 5s;
+  }
+  @keyframes fadeIn{
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  

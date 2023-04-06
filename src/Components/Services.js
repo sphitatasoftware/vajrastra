@@ -2,8 +2,16 @@ import React from "react";
 import "./Services.css";
 import Card from "react-bootstrap/Card";
 import { Row, Col, Container } from "react-bootstrap";
+import AOS from 'aos';
+
+import {useEffect} from "react";
+import 'aos/dist/aos.css';
+
 
 export default Services => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <>
       <div className="Services" id="Services">
@@ -24,7 +32,7 @@ export default Services => {
         <Container className="justify-content-md-center ">
           <Row>
             <Col xs={12} lg={4}>
-            <Card style={{ maxWidth:"400px",minHeight:"470px", borderBlockColor:"blue",borderBlockWidth:"5px",color:"gray" ,marginBottom:"20px"}}>
+            <Card data-aos="fade-down-right"  data-aos-delay="1000" data-aos-anchor-placement="top-center" style={{ maxWidth:"400px",minHeight:"470px", borderBlockColor:"gold",borderBlockWidth:"8px",color:"gray" ,marginBottom:"20px"}}>
       <Card.Img variant="top" src="/images/s1.png" />
       <Card.Body>
         <Card.Title>Native Mobile Apps</Card.Title>
@@ -36,7 +44,7 @@ export default Services => {
     </Card>
             </Col>
             <Col xs={12} lg={4}>
-            <Card style={{ maxWidth:"400px",minHeight:"470px", borderBlockColor:"blue",borderBlockWidth:"5px",color:"gray" ,marginBottom:"20px"}}>
+            <Card  data-aos="fade-down-right"  data-aos-delay="1500" data-aos-anchor-placement="top-center" style={{ maxWidth:"400px",minHeight:"470px", borderBlockColor:"gold",borderBlockWidth:"8px",color:"gray" ,marginBottom:"20px"}}>
       <Card.Img variant="top" src="/images/s2.png" />
       <Card.Body>
         <Card.Title>Responsive (PWA) sites</Card.Title>
@@ -48,7 +56,7 @@ export default Services => {
     </Card>
             </Col>
             <Col xs={12} lg={4}>
-            <Card style={{ maxWidth:"400px",minHeight:"470px", borderBlockColor:"blue",borderBlockWidth:"5px",color:"gray" ,marginBottom:"20px"}}>
+            <Card  data-aos="fade-down-right"  data-aos-delay="2000" data-aos-anchor-placement="top-center"  style={{ maxWidth:"400px",minHeight:"470px", borderBlockColor:"gold",borderBlockWidth:"8px",color:"gray" ,marginBottom:"20px"}}>
       <Card.Img variant="top" src="/images/s3.png" />
       <Card.Body>
         <Card.Title>E-Commerce</Card.Title>

@@ -4,6 +4,7 @@ import Aboutus from "./Aboutus";
 import Contactus from "./Contactus";
 import Services from "./Services";
 import Clients from "./Clients";
+import Footer from "./Footer";
 export default Home => {
     return (
       <>
@@ -12,6 +13,7 @@ export default Home => {
         <Services />
         <Clients />
         <Contactus/>
+        <Footer/>
       </>
     );
   };
